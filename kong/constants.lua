@@ -198,7 +198,7 @@ local constants = {
   },
   DATABASE = {
     POSTGRES = {
-      MIN = "9.5",
+      MIN = "9.2",
     },
     -- a bit over three years maximum to make it more safe against
     -- integer overflow (time() + ttl)
